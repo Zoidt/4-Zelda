@@ -11,4 +11,4 @@ export const images = new Images(context);
 export const stateMachine = new StateMachine();
 
 // If true, render all hitboxes.
-export const DEBUG = false;
+export const DEBUG = true;

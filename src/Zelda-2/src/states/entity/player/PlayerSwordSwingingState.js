@@ -85,6 +85,6 @@ export default class PlayerSwordSwingingState extends State {
 			hitboxY = this.player.position.y + this.player.dimensions.y + 4;
 		}
 
-		this.player.swordHitbox.set(hitboxX, hitboxY, hitboxWidth, hitboxHeight);
+		this.player.swordHitbox.set(hitboxX, hitboxY, hitboxWidth*2, hitboxHeight*2);
 	}
 }

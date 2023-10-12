@@ -15,4 +15,4 @@ export const stateMachine = new StateMachine();
 export const timer = new Timer();
 
 // If true, render all hitboxes.
-export const DEBUG = false;
+export const DEBUG = true;
